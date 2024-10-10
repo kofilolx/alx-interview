@@ -39,12 +39,15 @@ grid = [
     [0, 1, 0, 0],
     [0, 0, 0, 0]
 ]
-
+```
+```python 
 perimeter = island_perimeter(grid)
 print(perimeter)  # Output: 16
-Explanation
-Initialization: The function initializes a variable to track the perimeter.
-Traversal: It iterates through each cell in the grid.
-Land Check: For each land cell, it assumes all four sides contribute to the perimeter.
-Adjacent Land Check: The function checks adjacent cells to adjust the perimeter count.
-Return Result: Finally, the computed perimeter is returned.
+```
+
+# Explanation
+- Initialization: The function initializes a variable to track the perimeter.
+- Traversal: It iterates through each cell in the grid.
+- Land Check: For each land cell, it assumes all four sides contribute to the perimeter.
+- Adjacent Land Check: The function checks adjacent cells to adjust the perimeter count.
+- Return Result: Finally, the computed perimeter is returned.
